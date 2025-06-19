@@ -1,8 +1,70 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', ESC, Q, W, E, R, T, Y, U, I, O, P, \, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X,
-    C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, BACKSPACE, SPACE, raise, PG UP, PAGE DOWN, CAPS, '&mkp MB1', '&mmv MOVE_RIGHT', '&mmv MOVE_UP',
-    '&mmv MOVE_LEFT', '&mmv MOVE_DOWN']
+  default:
+  - {t: '1', h: '!'}
+  - {t: '2', h: '@'}
+  - {t: '3', h: '#'}
+  - {t: '4', h: $}
+  - {t: '5', h: '%'}
+  - {t: '6', h: ^}
+  - {t: '7', h: '&'}
+  - {t: '8', h: '*'}
+  - {t: '9', h: (}
+  - {t: '0', h: )}
+  - '-'
+  - '='
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - MUTE
+  - LGUI
+  - LALT
+  - LCTRL
+  - lower
+  - BACKSPACE
+  - SPACE
+  - raise
+  - PG UP
+  - PAGE DOWN
+  - CAPS
+  - '&mkp MCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   lower:
   - '&studio_unlock'
   - F1
@@ -29,17 +91,17 @@ layers:
   - '0'
   - _
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '[', h: '{'}
+  - {t: ']', h: '}'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '='
   - +
@@ -63,11 +125,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp MB4'
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -128,11 +190,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - {t: ▽, type: trans}
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
