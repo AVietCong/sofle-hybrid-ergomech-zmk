@@ -60,7 +60,7 @@ layers:
   - PG UP
   - PAGE DOWN
   - CAPS
-  - '&mkp MCLK'
+  - '&mkp LCLK'
   - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_LEFT'
@@ -125,10 +125,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
+  - '&mkp RCLK'
   - '&mkp RCLK'
   - '&mkp MB5'
-  - '&mkp LCLK'
+  - '&mkp MCLK'
   - '&mkp MB4'
   raise:
   - BT CLR
